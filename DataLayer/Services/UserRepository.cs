@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataLayer.Services
+namespace DataLayer
 {
-    internal class UserRepository : IUserRepository
+    public class UserRepository : IUserRepository
     {
         MyContext db;
         public UserRepository(MyContext mydb)
@@ -26,6 +26,11 @@ namespace DataLayer.Services
         public User Get(int id)
         {
             return db.Users.Find(id);
+        }
+
+        public User Get(string Username)
+        {
+            return db.Users.FirstOrDefault(db=>db.UserName == Username);
         }
 
         public IEnumerable<User> GetAllUsers()

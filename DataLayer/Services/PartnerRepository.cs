@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataLayer.Services
+namespace DataLayer
 {
-    internal class PartnerRepository : IPartnerRepository
+    public class PartnerRepository : IPartnerRepository
     {
         MyContext db;
         public PartnerRepository(MyContext mydb)

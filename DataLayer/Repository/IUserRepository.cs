@@ -10,6 +10,7 @@ namespace DataLayer
     {
         IEnumerable<User> GetAllUsers();
         User Get(int id);
+        User Get(string Username);
         bool Insert(User user);
         bool Update(User user);
         bool Existed(string UserName, string Password);

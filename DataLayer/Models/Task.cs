@@ -11,9 +11,9 @@ namespace DataLayer
         public int TaskID { get; set; }
         public int ListID { get; set; }
         public string Title { get; set; }
-        public DateTime Date { get; set; }= DateTime.Now;
+        public DateTime Date { get; set; } = DateTime.Now;
         public DateTime? DoneDate { get; set; }
-        public Boolean IsDone { get; set; }= false;
+        public Boolean IsDone { get; set; } = false;
         public int UserID { get; set; }
 
         public Task()
@@ -21,5 +21,6 @@ namespace DataLayer
 
         }
         public virtual User User { get; set; }
+        public virtual List List { get; set; }
     }
 }

@@ -18,5 +18,6 @@ namespace DataLayer
 
         }
         public virtual User User { get; set; }
+        public virtual List List { get; set; }
     }
 }

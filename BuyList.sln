@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyList", "BuyList\BuyList.csproj", "{286F8F3F-0945-4999-9F6E-378EDCD0B0F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{F551AB7E-5628-40C1-B369-DD2745300A55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{286F8F3F-0945-4999-9F6E-378EDCD0B0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286F8F3F-0945-4999-9F6E-378EDCD0B0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286F8F3F-0945-4999-9F6E-378EDCD0B0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286F8F3F-0945-4999-9F6E-378EDCD0B0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F551AB7E-5628-40C1-B369-DD2745300A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F551AB7E-5628-40C1-B369-DD2745300A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F551AB7E-5628-40C1-B369-DD2745300A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F551AB7E-5628-40C1-B369-DD2745300A55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6280148B-3321-412B-BE6A-428757281291}
+	EndGlobalSection
+EndGlobal

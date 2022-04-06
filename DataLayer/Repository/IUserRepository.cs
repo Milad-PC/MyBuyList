@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataLayer.Repository
+namespace DataLayer
 {
-    internal interface IUserRepository
+    public interface IUserRepository
     {
+        IEnumerable<User> GetAllUsers();
+        User Get(int id);
+        bool Insert(User user);
+        bool Update(User user);
+        bool Existed(string UserName, string Password);
     }
 }

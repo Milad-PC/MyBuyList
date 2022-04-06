@@ -1,0 +1,92 @@
+﻿#subjectt {
+    margin-top: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+    #subjectt .col-3 {
+        display: flex;
+        align-items: center;
+    }
+
+        #subjectt .col-3 a {
+            color: black;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #subjectt .col-3 i {
+            font-size: 22px;
+            display: block;
+            margin: 0 auto;
+        }
+
+#task {
+    margin-top: 5%;
+    background-color: #c5a5fc;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    box-shadow: 6px 6px 7px #e0e0e0, -6px -6px 7px #ffffff;
+}
+
+    #task .col-2,
+    #task .col-10 {
+        display: flex;
+        align-items: center;
+    }
+
+        #task .col-2 .dropdown .dropdown-toggle {
+            background-color: transparent;
+            border: none;
+        }
+
+            #task .col-2 .dropdown .dropdown-toggle:focus {
+                box-shadow: none;
+                border: none;
+                outline: none;
+            }
+
+        #task .col-2 .dropdown ::after {
+            content: none;
+        }
+
+        #task .col-2 .dropdown .dropdown-toggle i {
+            color: gray;
+            font-size: 22px;
+            color: black;
+        }
+
+        #task .col-2 .dropdown ul {
+            border: 3px solid #8862CC;
+        }
+
+            #task .col-2 .dropdown ul li {
+                padding: 3%;
+                width: 100%;
+            }
+
+                #task .col-2 .dropdown ul li:nth-child(1) {
+                    border-bottom: 2px solid #8862CC;
+                    color: green;
+                }
+
+                #task .col-2 .dropdown ul li:nth-child(2) {
+                    color: red;
+                }
+
+                #task .col-2 .dropdown ul li i {
+                    font-size: 18px;
+                    margin-right: 5%;
+                }
+
+        #task .col-10 h6 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        #task .col-2:nth-child(2) i {
+            font-size: 22px;
+            color: green;
+            visibility: hidden;
+        }

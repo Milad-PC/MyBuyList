@@ -9,7 +9,7 @@ namespace DataLayer
     public interface IPartnerRepository:IDisposable
     {
         IEnumerable<Partner> GetAllPartners();
-        IEnumerable<Partner> GetPartnersByList();
+        IEnumerable<Partner> GetPartnersByList(int listId);
 
         Partner GetPartnerByID(int partnerId); 
 

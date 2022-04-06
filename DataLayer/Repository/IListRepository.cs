@@ -11,7 +11,6 @@ namespace DataLayer
         IEnumerable<List> GetAllLists();
         IEnumerable<List> GetListsByUserID(int id);
         List GetListByID(int id);
-        List GetListByName(string name);
 
         bool IsUserListMaker(int listId, int userId);
 

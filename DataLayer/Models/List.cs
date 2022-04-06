@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-     class List
+    public class List
     {
         public int ListID { get; set; }
         public string Name { get; set; }

@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-    class Partner
+    public class Partner
     {
         public int PartnerID { get; set; }
         public int UserID { get; set; }
         public int ListID { get; set; }
+
+
+        public Partner()
+        {
+
+        }
+        public virtual User User { get; set; }
     }
 }

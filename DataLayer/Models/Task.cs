@@ -17,14 +17,23 @@ namespace DataLayer
         public int ListID { get; set; }
 
         [Display(Name ="عنوان")]
+        [MaxLength(200,ErrorMessage ="مقدار ورودی از حد مجاز بیشتر است.")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         public string Title { get; set; }
 
-        [Display(Name ="")]
+        [Display(Name ="تاریخ ساخت")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         public DateTime Date { get; set; } = DateTime.Now;
+
+        [Display(Name ="زمان انجام")]
         public DateTime? DoneDate { get; set; }
+
+        [Display(Name ="وضعیت")]
+        [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         public Boolean IsDone { get; set; } = false;
+
+        [Display(Name ="کاربر")]
+        [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         public int UserID { get; set; }
 
         public Task()

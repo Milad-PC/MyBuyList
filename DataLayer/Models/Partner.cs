@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataLayer.Models
+namespace DataLayer
 {
-    internal class Partner
+    class Partner
     {
+        public int PartnerID { get; set; }
+        public int UserID { get; set; }
+        public int ListID { get; set; }
     }
 }

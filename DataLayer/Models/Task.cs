@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-    class Task
+    public class Task
     {
         public int TaskID { get; set; }
         public int ListID { get; set; }
@@ -15,5 +15,11 @@ namespace DataLayer
         public DateTime? DoneDate { get; set; }
         public Boolean IsDone { get; set; }= false;
         public int UserID { get; set; }
+
+        public Task()
+        {
+
+        }
+        public virtual User User { get; set; }
     }
 }

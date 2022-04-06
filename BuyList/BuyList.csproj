@@ -150,6 +150,14 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\apache_helicopter.png" />
+    <Content Include="Images\apartment.png" />
+    <Content Include="Images\car.png" />
+    <Content Include="Images\home.png" />
+    <Content Include="Images\home_office.png" />
+    <Content Include="Images\house_with_a_garden.png" />
+    <Content Include="Images\japanese_castle.png" />
+    <Content Include="Images\work_in_bed.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
